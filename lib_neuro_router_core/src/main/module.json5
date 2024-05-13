@@ -1,0 +1,11 @@
+{
+  "module": {
+    "name": "lib_neuro_router_core",
+    "type": "har",
+    "deviceTypes": [
+      "default",
+      "tablet",
+      "2in1"
+    ]
+  }
+}

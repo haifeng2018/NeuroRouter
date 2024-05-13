@@ -1,0 +1,14 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "Please describe the basic information.",
+  "main": "",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "lib_neuro_router_core": "file:../lib_neuro_router_core",
+    "module_home": "file:../module_home",
+    "module_me": "file:../module_me"
+  }
+}
+
