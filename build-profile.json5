@@ -1,11 +1,24 @@
 {
   "app": {
-    "signingConfigs": [],
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\BS-WX\\.ohos\\config\\default_NeuroRouter_fqnNJLk0iO0JAIbxXBuwAsimWOjax6TIl-sHowRwzr0=.cer",
+          "storePassword": "0000001B15C255F164B7A3A4DCD6EAD22A88898538B74F99705B11821CD2A83E72A4C7F69A6170232E67B0",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B810383A425CCE96D7B6E19408420AAEEBD0E227545F81D34B4E81976B27AEFF9C8115AE21485B3",
+          "profile": "C:\\Users\\BS-WX\\.ohos\\config\\default_NeuroRouter_fqnNJLk0iO0JAIbxXBuwAsimWOjax6TIl-sHowRwzr0=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\BS-WX\\.ohos\\config\\default_NeuroRouter_fqnNJLk0iO0JAIbxXBuwAsimWOjax6TIl-sHowRwzr0=.p12"
+        }
+      }
+    ],
     "products": [
       {
         "name": "default",
         "signingConfig": "default",
-        "compileSdkVersion": "4.1.0(11)",
         "compatibleSdkVersion": "4.1.0(11)",
         "runtimeOS": "HarmonyOS",
       }
